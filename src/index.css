@@ -1,0 +1,223 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  
+  --color-base-lightest: var(--base-lightest);
+  --color-base-mid: var(--base-mid);
+  --color-accent: var(--accent);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  
+  --color-glass-fill: var(--glass-fill);
+  --color-glass-border: var(--glass-border);
+  --color-glass-shadow: var(--glass-shadow);
+  
+  --color-bg-gradient-start: var(--bg-gradient-start);
+  
+  /* Map old colors to monochrome palette to preserve component structure without hues */
+  --color-matte-black: var(--bg-start);
+  --color-matte-dark: var(--bg-start);
+  --color-matte-gray: var(--glass-fill);
+  --color-soft-white: var(--text-primary);
+  --color-warm-gold: var(--accent);
+  --color-gold-light: var(--accent);
+}
+
+:root {
+  --bg-start: #F7F7F7;
+  --bg-end: #F7F7F7;
+  --accent: #0B0909;
+  --accent-strong: #0B0909;
+  --text-primary: #0B0909;
+  --text-secondary: #929AAB;
+  --glass-fill: rgba(247, 247, 247, 0.55);
+  --glass-fill-strong: rgba(247, 247, 247, 0.75);
+  --glass-border: rgba(146, 154, 171, 0.35);
+  --glass-shadow: rgba(11, 9, 9, 0.12);
+  --glass-highlight: rgba(247, 247, 247, 0.45);
+}
+:root[data-theme='dark'] {
+  --bg-start: #0B0909;
+  --bg-end: #0B0909;
+  --accent: #F7F7F7;
+  --accent-strong: #F7F7F7;
+  --text-primary: #F7F7F7;
+  --text-secondary: #929AAB;
+  --glass-fill: rgba(146, 154, 171, 0.08);
+  --glass-fill-strong: rgba(146, 154, 171, 0.14);
+  --glass-border: rgba(146, 154, 171, 0.20);
+  --glass-shadow: rgba(11, 9, 9, 0.50);
+  --glass-highlight: rgba(247, 247, 247, 0.12);
+}
+
+html, body, #root {
+  background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  min-height: 100vh;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--text-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Tier 1 — secondary surfaces: content blocks, forms, timeline items */
+.glass-panel {
+  background: var(--glass-fill);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 var(--glass-shadow);
+  border-radius: 20px;
+}
+
+/* Tier 2 — primary surfaces: navbar, hero card, featured project cards */
+.liquid-glass {
+  position: relative;
+  background: var(--glass-fill-strong);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 var(--glass-shadow);
+  border-radius: 24px;
+}
+
+.liquid-glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--glass-highlight) 0%, transparent 40%, transparent 60%, var(--glass-highlight) 100%);
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@supports not (backdrop-filter: blur(14px)) {
+  .glass-panel, .liquid-glass { background: var(--bg-end); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *:not(html):not(body):not(#root) { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Compatibility classes */
+.glass {
+  background: var(--glass-fill);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 var(--glass-shadow);
+  border-radius: 20px;
+}
+
+.gold-text-gradient, .text-gradient {
+  background: linear-gradient(135deg, var(--base-lightest) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+[data-theme="light"] .gold-text-gradient, [data-theme="light"] .text-gradient {
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Masonry Fallback */
+.masonry-grid {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+
+@media (min-width: 500px) {
+  .masonry-grid { column-count: 2; }
+}
+@media (min-width: 768px) {
+  .masonry-grid { column-count: 3; }
+}
+@media (min-width: 1024px) {
+  .masonry-grid { column-count: 4; }
+}
+@media (min-width: 1280px) {
+  .masonry-grid { column-count: 5; }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+@layer utilities {
+  .pause-on-hover:hover > * {
+    animation-play-state: paused !important;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 40s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-marquee-reverse {
+    animation: none !important;
+  }
+}
