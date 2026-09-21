@@ -3,8 +3,8 @@ const fs = require('fs');
 
 async function run() {
   try {
-    const inputPath = 'C:\\Users\\LOQ\\.gemini\\antigravity-ide\\brain\\d8c8d0a9-0659-439a-a9b2-2a61350cd180\\.user_uploaded\\media_1789752870965.jpg';
-    const outputPath = 'public/assets/wasil-portrait.png';
+    const inputPath = 'C:\\Users\\LOQ\\.gemini\\antigravity-ide\\brain\\3938f653-57e1-4a62-b8a8-cb89d7acd4ae\\.user_uploaded\\media_1789925934763.png';
+    const outputPath = 'public/assets/wasil-portrait-laptop.png';
     console.log(`Starting background removal for ${inputPath}`);
     
     // Process image

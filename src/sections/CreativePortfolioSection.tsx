@@ -4,6 +4,7 @@ import { FeaturedProjects } from './portfolio/FeaturedProjects';
 import { PortfolioToolbar } from './portfolio/PortfolioToolbar';
 import { MasonryGallery } from './portfolio/MasonryGallery';
 import { ProjectModal } from './portfolio/ProjectModal';
+import { MagazineSection } from './portfolio/MagazineSection';
 import portfolioData from '../data/portfolio.json';
 
 // Type from JSON
@@ -111,6 +112,8 @@ export function CreativePortfolioSection() {
         sortOption={sortOption}
         onSortChange={setSortOption}
       />
+
+      <MagazineSection />
 
       <MasonryGallery 
         projects={filteredProjects} 
