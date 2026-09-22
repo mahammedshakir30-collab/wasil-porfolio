@@ -59,10 +59,24 @@ html, body, #root {
   font-family: var(--font-sans);
   margin: 0;
   padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll globally */
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: background-color 0.4s ease, color 0.4s ease;
   min-height: 100vh;
+}
+
+/* Enforce responsive images globally */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure mobile tap targets meet accessibility guidelines */
+.min-tap-target {
+  min-height: 44px;
+  min-width: 44px;
 }
 
 *, *::before, *::after {

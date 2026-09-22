@@ -42,7 +42,7 @@ export function PdfViewerModal({ isOpen, pdfUrl, title, onClose }: PdfViewerModa
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#0B0909]/80 backdrop-blur-sm"
+          className="fixed inset-0 z-[200] flex items-center justify-center p-0 sm:p-6 bg-[#0B0909]/80 backdrop-blur-sm pt-[env(safe-area-inset-top)]"
           onClick={handleOverlayClick}
         >
           <motion.div 
@@ -50,30 +50,30 @@ export function PdfViewerModal({ isOpen, pdfUrl, title, onClose }: PdfViewerModa
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.2 }}
-            className="w-full h-full sm:w-[90vw] sm:h-[90vh] bg-[#F7F7F7] rounded-xl overflow-hidden flex flex-col shadow-2xl"
+            className="w-full h-[100dvh] sm:h-[90vh] sm:w-[90vw] bg-[var(--bg-start)] rounded-none sm:rounded-xl overflow-hidden flex flex-col shadow-2xl"
           >
             {/* Header */}
-            <div className="flex items-center justify-between p-4 border-b border-[#929AAB]/20 bg-[#F7F7F7]">
-              <h2 className="text-[#0B0909] font-bold text-lg sm:text-xl truncate pr-4">
+            <div className="flex items-center justify-between p-3 sm:p-4 border-b border-[var(--glass-border)] bg-[var(--bg-start)]">
+              <h2 className="text-[var(--text-primary)] font-bold text-lg sm:text-xl truncate pr-4">
                 {title}
               </h2>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1 sm:gap-2">
                 <a 
                   href={pdfUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 text-xs sm:text-sm text-[#929AAB] hover:text-[#0B0909] transition-colors px-3 py-1.5 rounded-full hover:bg-[#929AAB]/10"
+                  className="flex items-center justify-center gap-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors min-tap-target px-3 rounded-full hover:bg-[var(--glass-fill)]"
                   title="Open in new tab (if preview fails)"
                 >
-                  <ExternalLink size={14} />
+                  <ExternalLink size={18} />
                   <span className="hidden sm:inline">Open in new tab</span>
                 </a>
                 <button
                   onClick={onClose}
-                  className="p-2 text-[#929AAB] hover:text-[#0B0909] hover:bg-[#929AAB]/10 rounded-full transition-colors"
+                  className="flex items-center justify-center min-tap-target text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--glass-fill)] rounded-full transition-colors"
                   aria-label="Close"
                 >
-                  <X size={20} />
+                  <X size={24} />
                 </button>
               </div>
             </div>

@@ -49,7 +49,7 @@ export function MagazineSection() {
                   opacity: 1, 
                   y: 0, 
                   rotate: idx === 0 ? -6 : 6,
-                  x: idx === 0 ? -20 : 20
+                  x: idx === 0 ? '-8%' : '8%'
                 }}
                 whileHover={{ 
                   scale: 1.05, 
@@ -58,7 +58,7 @@ export function MagazineSection() {
                 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: idx * 0.2 }}
-                className={`absolute inset-0 ${mag.color} border border-[#929AAB]/30 rounded-lg shadow-2xl p-8 flex flex-col justify-between cursor-pointer group origin-bottom`}
+                className={`absolute inset-0 ${mag.color} border border-[#929AAB]/30 rounded-lg shadow-2xl p-6 sm:p-8 flex flex-col justify-between cursor-pointer group origin-bottom min-tap-target`}
                 onClick={() => setSelectedPdf({ url: mag.pdfUrl, title: mag.title })}
               >
                 {/* Magazine Cover Content Mockup */}

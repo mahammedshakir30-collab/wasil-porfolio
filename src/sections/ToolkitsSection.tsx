@@ -44,29 +44,29 @@ export function ToolkitsSection() {
           <h4 className="text-[var(--text-primary)] font-medium tracking-wide">Design Toolkit</h4>
         </div>
         
-        <div className="flex overflow-hidden group pause-on-hover relative">
-          <div className="flex animate-marquee shrink-0 gap-6 px-3">
+        <div className="flex overflow-hidden group hover:[&>div]:[animation-play-state:paused] active:[&>div]:[animation-play-state:paused] touch-pan-y relative">
+          <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3">
             {designTools.map((tool, index) => (
-              <div key={index} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
-                <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
+              <div key={index} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
+                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
           </div>
-          <div className="flex animate-marquee shrink-0 gap-6 px-3" aria-hidden="true">
+          <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3" aria-hidden="true">
             {designTools.map((tool, index) => (
-              <div key={`dup-${index}`} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
-                <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
+              <div key={`dup-${index}`} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
+                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
           </div>
           {/* Add a third set to ensure screen is filled if items are small */}
-          <div className="flex animate-marquee shrink-0 gap-6 px-3" aria-hidden="true">
+          <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3" aria-hidden="true">
             {designTools.map((tool, index) => (
-              <div key={`dup2-${index}`} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
-                <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
+              <div key={`dup2-${index}`} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
+                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
           </div>

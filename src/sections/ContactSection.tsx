@@ -85,7 +85,7 @@ export function ContactSection() {
                   name="name"
                   required
                   placeholder="John Doe" 
-                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-6 py-4 text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors"
+                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-[16px] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors min-tap-target"
                 />
               </div>
 
@@ -96,7 +96,7 @@ export function ContactSection() {
                   name="email"
                   required
                   placeholder="john@example.com" 
-                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-6 py-4 text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors"
+                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-[16px] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors min-tap-target"
                 />
               </div>
 
@@ -107,7 +107,7 @@ export function ContactSection() {
                   required
                   rows={4}
                   placeholder="How can I help you?" 
-                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-6 py-4 text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors resize-none"
+                  className="w-full bg-[var(--glass-fill)] border border-[var(--glass-border)] rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-[16px] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors resize-none min-tap-target"
                 />
               </div>
 
