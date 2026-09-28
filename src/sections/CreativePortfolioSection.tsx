@@ -5,6 +5,7 @@ import { PortfolioToolbar } from './portfolio/PortfolioToolbar';
 import { MasonryGallery } from './portfolio/MasonryGallery';
 import { ProjectModal } from './portfolio/ProjectModal';
 import { MagazineSection } from './portfolio/MagazineSection';
+import { MenuDesignSection } from './portfolio/MenuDesignSection';
 import portfolioData from '../data/portfolio.json';
 
 // Type from JSON
@@ -114,6 +115,8 @@ export function CreativePortfolioSection() {
       />
 
       <MagazineSection />
+      
+      <MenuDesignSection />
 
       <MasonryGallery 
         projects={filteredProjects} 
