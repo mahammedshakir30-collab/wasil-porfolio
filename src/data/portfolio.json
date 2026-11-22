@@ -1417,6 +1417,42 @@
   },
   {
     "id": 119,
+    "title": "Cactus Business Clarity",
+    "category": "Brochures",
+    "src": "/projects/brochures/cactus-business-clarity.jpg",
+    "client": "Independent",
+    "tags": [
+      "brochures",
+      "design"
+    ],
+    "type": "Standard"
+  },
+  {
+    "id": 120,
+    "title": "Cactus Services Brochure",
+    "category": "Brochures",
+    "src": "/projects/brochures/cactus-services-brochure.jpg",
+    "client": "Independent",
+    "tags": [
+      "brochures",
+      "design"
+    ],
+    "type": "Standard"
+  },
+  {
+    "id": 121,
+    "title": "Kron Company Profile",
+    "category": "Brochures",
+    "src": "/projects/brochures/kron-company-profile.jpg",
+    "client": "Independent",
+    "tags": [
+      "brochures",
+      "design"
+    ],
+    "type": "Standard"
+  },
+  {
+    "id": 122,
     "title": "Photo from واصل بن حسن (1)",
     "category": "Flayer",
     "src": "/projects/flayer/Photo from واصل بن حسن (1).jpg",
@@ -1428,7 +1464,7 @@
     "type": "Standard"
   },
   {
-    "id": 120,
+    "id": 123,
     "title": "Photo from واصل بن حسن (3)",
     "category": "Flayer",
     "src": "/projects/flayer/Photo from واصل بن حسن (3).jpg",
@@ -1440,7 +1476,7 @@
     "type": "Standard"
   },
   {
-    "id": 121,
+    "id": 124,
     "title": "Photo from واصل بن حسن",
     "category": "Flayer",
     "src": "/projects/flayer/Photo from واصل بن حسن.jpg",
@@ -1452,7 +1488,7 @@
     "type": "Standard"
   },
   {
-    "id": 122,
+    "id": 125,
     "title": "Photo 6287181210920358568 Y",
     "category": "Flayer",
     "src": "/projects/flayer/photo_6287181210920358568_y.jpg",
@@ -1464,7 +1500,7 @@
     "type": "Standard"
   },
   {
-    "id": 123,
+    "id": 126,
     "title": "Photo 6287181210920358576 Y",
     "category": "Flayer",
     "src": "/projects/flayer/photo_6287181210920358576_y.jpg",
@@ -1476,7 +1512,7 @@
     "type": "Standard"
   },
   {
-    "id": 124,
+    "id": 127,
     "title": "Photo 6287181210920358635 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358635_y.jpg",
@@ -1488,7 +1524,7 @@
     "type": "Standard"
   },
   {
-    "id": 125,
+    "id": 128,
     "title": "Photo 6287181210920358638 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358638_y.jpg",
@@ -1500,7 +1536,7 @@
     "type": "Standard"
   },
   {
-    "id": 126,
+    "id": 129,
     "title": "Photo 6287181210920358639 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358639_y.jpg",
@@ -1512,7 +1548,7 @@
     "type": "Standard"
   },
   {
-    "id": 127,
+    "id": 130,
     "title": "Photo 6287181210920358640 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358640_y.jpg",
@@ -1524,7 +1560,7 @@
     "type": "Standard"
   },
   {
-    "id": 128,
+    "id": 131,
     "title": "Photo 6287181210920358641 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358641_y.jpg",
@@ -1536,7 +1572,7 @@
     "type": "Standard"
   },
   {
-    "id": 129,
+    "id": 132,
     "title": "Photo 6287181210920358642 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358642_y.jpg",
@@ -1548,7 +1584,7 @@
     "type": "Standard"
   },
   {
-    "id": 130,
+    "id": 133,
     "title": "Photo 6287181210920358643 Y",
     "category": "Het",
     "src": "/projects/Het/photo_6287181210920358643_y.jpg",
@@ -1560,7 +1596,7 @@
     "type": "Standard"
   },
   {
-    "id": 131,
+    "id": 134,
     "title": "Photo 6287181210920358598 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358598_y.jpg",
@@ -1572,7 +1608,7 @@
     "type": "Standard"
   },
   {
-    "id": 132,
+    "id": 135,
     "title": "Photo 6287181210920358627 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358627_y.jpg",
@@ -1584,7 +1620,7 @@
     "type": "Standard"
   },
   {
-    "id": 133,
+    "id": 136,
     "title": "Photo 6287181210920358629 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358629_y.jpg",
@@ -1596,7 +1632,7 @@
     "type": "Standard"
   },
   {
-    "id": 134,
+    "id": 137,
     "title": "Photo 6287181210920358631 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358631_y.jpg",
@@ -1608,7 +1644,7 @@
     "type": "Standard"
   },
   {
-    "id": 135,
+    "id": 138,
     "title": "Photo 6287181210920358633 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358633_y.jpg",
@@ -1620,7 +1656,7 @@
     "type": "Standard"
   },
   {
-    "id": 136,
+    "id": 139,
     "title": "Photo 6287181210920358634 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358634_y.jpg",
@@ -1632,7 +1668,7 @@
     "type": "Standard"
   },
   {
-    "id": 137,
+    "id": 140,
     "title": "Photo 6287181210920358636 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358636_y.jpg",
@@ -1644,7 +1680,7 @@
     "type": "Standard"
   },
   {
-    "id": 138,
+    "id": 141,
     "title": "Photo 6287181210920358637 Y",
     "category": "Hettec",
     "src": "/projects/hettec/photo_6287181210920358637_y.jpg",
@@ -1656,7 +1692,7 @@
     "type": "Standard"
   },
   {
-    "id": 139,
+    "id": 142,
     "title": "6105096948576011188",
     "category": "Hiring",
     "src": "/projects/hiring/6105096948576011188.jpg",
@@ -1668,7 +1704,7 @@
     "type": "Standard"
   },
   {
-    "id": 140,
+    "id": 143,
     "title": "6131874158409878648",
     "category": "Hiring",
     "src": "/projects/hiring/6131874158409878648.jpg",
@@ -1680,7 +1716,7 @@
     "type": "Standard"
   },
   {
-    "id": 141,
+    "id": 144,
     "title": "Photo 6287181210920358554 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358554_y.jpg",
@@ -1692,7 +1728,7 @@
     "type": "Standard"
   },
   {
-    "id": 142,
+    "id": 145,
     "title": "Photo 6287181210920358558 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358558_y.jpg",
@@ -1704,7 +1740,7 @@
     "type": "Standard"
   },
   {
-    "id": 143,
+    "id": 146,
     "title": "Photo 6287181210920358564 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358564_y.jpg",
@@ -1716,7 +1752,7 @@
     "type": "Standard"
   },
   {
-    "id": 144,
+    "id": 147,
     "title": "Photo 6287181210920358595 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358595_y.jpg",
@@ -1728,7 +1764,7 @@
     "type": "Standard"
   },
   {
-    "id": 145,
+    "id": 148,
     "title": "Photo 6287181210920358607 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358607_y.jpg",
@@ -1740,7 +1776,7 @@
     "type": "Standard"
   },
   {
-    "id": 146,
+    "id": 149,
     "title": "Photo 6287181210920358613 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358613_y.jpg",
@@ -1752,7 +1788,7 @@
     "type": "Standard"
   },
   {
-    "id": 147,
+    "id": 150,
     "title": "Photo 6287181210920358614 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358614_y.jpg",
@@ -1764,7 +1800,7 @@
     "type": "Standard"
   },
   {
-    "id": 148,
+    "id": 151,
     "title": "Photo 6287181210920358625 Y",
     "category": "Hiring",
     "src": "/projects/hiring/photo_6287181210920358625_y.jpg",
@@ -1776,7 +1812,7 @@
     "type": "Standard"
   },
   {
-    "id": 149,
+    "id": 152,
     "title": "Photo from واصل بن حسن",
     "category": "Menu",
     "src": "/projects/menu/Photo from واصل بن حسن.jpg",
@@ -1788,7 +1824,7 @@
     "type": "Standard"
   },
   {
-    "id": 150,
+    "id": 153,
     "title": "6132106421651311802",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6132106421651311802.jpg",
@@ -1800,7 +1836,7 @@
     "type": "Standard"
   },
   {
-    "id": 151,
+    "id": 154,
     "title": "6301062940358022057",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022057.jpg",
@@ -1812,7 +1848,7 @@
     "type": "Standard"
   },
   {
-    "id": 152,
+    "id": 155,
     "title": "6301062940358022066",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022066.jpg",
@@ -1824,7 +1860,7 @@
     "type": "Standard"
   },
   {
-    "id": 153,
+    "id": 156,
     "title": "6301062940358022067",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022067.jpg",
@@ -1836,7 +1872,7 @@
     "type": "Standard"
   },
   {
-    "id": 154,
+    "id": 157,
     "title": "6301062940358022068",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022068.jpg",
@@ -1848,7 +1884,7 @@
     "type": "Standard"
   },
   {
-    "id": 155,
+    "id": 158,
     "title": "6301062940358022077",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022077.jpg",
@@ -1860,7 +1896,7 @@
     "type": "Standard"
   },
   {
-    "id": 156,
+    "id": 159,
     "title": "6301062940358022078",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022078.jpg",
@@ -1872,7 +1908,7 @@
     "type": "Standard"
   },
   {
-    "id": 157,
+    "id": 160,
     "title": "6301062940358022079",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022079.jpg",
@@ -1884,7 +1920,7 @@
     "type": "Standard"
   },
   {
-    "id": 158,
+    "id": 161,
     "title": "6301062940358022080",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022080.jpg",
@@ -1896,7 +1932,7 @@
     "type": "Standard"
   },
   {
-    "id": 159,
+    "id": 162,
     "title": "6301062940358022081",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022081.jpg",
@@ -1908,7 +1944,7 @@
     "type": "Standard"
   },
   {
-    "id": 160,
+    "id": 163,
     "title": "6301062940358022082",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022082.jpg",
@@ -1920,7 +1956,7 @@
     "type": "Standard"
   },
   {
-    "id": 161,
+    "id": 164,
     "title": "6301062940358022083",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022083.jpg",
@@ -1932,7 +1968,7 @@
     "type": "Standard"
   },
   {
-    "id": 162,
+    "id": 165,
     "title": "6301062940358022084",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022084.jpg",
@@ -1944,7 +1980,7 @@
     "type": "Standard"
   },
   {
-    "id": 163,
+    "id": 166,
     "title": "6301062940358022086",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022086.jpg",
@@ -1956,7 +1992,7 @@
     "type": "Standard"
   },
   {
-    "id": 164,
+    "id": 167,
     "title": "6301062940358022087",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022087.jpg",
@@ -1968,7 +2004,7 @@
     "type": "Standard"
   },
   {
-    "id": 165,
+    "id": 168,
     "title": "6301062940358022088",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022088.jpg",
@@ -1980,7 +2016,7 @@
     "type": "Standard"
   },
   {
-    "id": 166,
+    "id": 169,
     "title": "6301062940358022089",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022089.jpg",
@@ -1992,7 +2028,7 @@
     "type": "Standard"
   },
   {
-    "id": 167,
+    "id": 170,
     "title": "6301062940358022091",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022091.jpg",
@@ -2004,7 +2040,7 @@
     "type": "Standard"
   },
   {
-    "id": 168,
+    "id": 171,
     "title": "6301062940358022092",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022092.jpg",
@@ -2016,7 +2052,7 @@
     "type": "Standard"
   },
   {
-    "id": 169,
+    "id": 172,
     "title": "6301062940358022093",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022093.jpg",
@@ -2028,7 +2064,7 @@
     "type": "Standard"
   },
   {
-    "id": 170,
+    "id": 173,
     "title": "6301062940358022094",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022094.jpg",
@@ -2040,7 +2076,7 @@
     "type": "Standard"
   },
   {
-    "id": 171,
+    "id": 174,
     "title": "6301062940358022095",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022095.jpg",
@@ -2052,7 +2088,7 @@
     "type": "Standard"
   },
   {
-    "id": 172,
+    "id": 175,
     "title": "6301062940358022096",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022096.jpg",
@@ -2064,7 +2100,7 @@
     "type": "Standard"
   },
   {
-    "id": 173,
+    "id": 176,
     "title": "6301062940358022098",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022098.jpg",
@@ -2076,7 +2112,7 @@
     "type": "Standard"
   },
   {
-    "id": 174,
+    "id": 177,
     "title": "6301062940358022099",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022099.jpg",
@@ -2088,7 +2124,7 @@
     "type": "Standard"
   },
   {
-    "id": 175,
+    "id": 178,
     "title": "6301062940358022100",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6301062940358022100.jpg",
@@ -2100,7 +2136,7 @@
     "type": "Standard"
   },
   {
-    "id": 176,
+    "id": 179,
     "title": "6309756220449344894",
     "category": "MTSA MEDIA",
     "src": "/projects/MTSA MEDIA/6309756220449344894.jpg",
@@ -2112,7 +2148,7 @@
     "type": "Standard"
   },
   {
-    "id": 177,
+    "id": 180,
     "title": "Photo 6287181210920358553 Y",
     "category": "Special Day",
     "src": "/projects/special day/photo_6287181210920358553_y.jpg",
@@ -2124,7 +2160,7 @@
     "type": "Standard"
   },
   {
-    "id": 178,
+    "id": 181,
     "title": "Photo 6287181210920358591 Y",
     "category": "Special Day",
     "src": "/projects/special day/photo_6287181210920358591_y.jpg",
@@ -2136,7 +2172,7 @@
     "type": "Standard"
   },
   {
-    "id": 179,
+    "id": 182,
     "title": "Photo 6287181210920358615 Y",
     "category": "Special Day",
     "src": "/projects/special day/photo_6287181210920358615_y.jpg",
@@ -2148,7 +2184,7 @@
     "type": "Standard"
   },
   {
-    "id": 180,
+    "id": 183,
     "title": "6062396843280680561",
     "category": "Travels",
     "src": "/projects/travels/6062396843280680561.jpg",
@@ -2160,7 +2196,7 @@
     "type": "Standard"
   },
   {
-    "id": 181,
+    "id": 184,
     "title": "6068889669896096841",
     "category": "Travels",
     "src": "/projects/travels/6068889669896096841.jpg",
@@ -2172,7 +2208,7 @@
     "type": "Standard"
   },
   {
-    "id": 182,
+    "id": 185,
     "title": "6068889669896096843",
     "category": "Travels",
     "src": "/projects/travels/6068889669896096843.jpg",
@@ -2184,7 +2220,7 @@
     "type": "Standard"
   },
   {
-    "id": 183,
+    "id": 186,
     "title": "6125029866026946179",
     "category": "Travels",
     "src": "/projects/travels/6125029866026946179.jpg",
@@ -2196,7 +2232,7 @@
     "type": "Standard"
   },
   {
-    "id": 184,
+    "id": 187,
     "title": "6217260556381964127",
     "category": "Travels",
     "src": "/projects/travels/6217260556381964127.jpg",
@@ -2208,7 +2244,7 @@
     "type": "Standard"
   },
   {
-    "id": 185,
+    "id": 188,
     "title": "6271376190832577507",
     "category": "Travels",
     "src": "/projects/travels/6271376190832577507.jpg",
@@ -2220,7 +2256,7 @@
     "type": "Standard"
   },
   {
-    "id": 186,
+    "id": 189,
     "title": "6271796698195627108",
     "category": "Travels",
     "src": "/projects/travels/6271796698195627108.jpg",
@@ -2232,7 +2268,7 @@
     "type": "Standard"
   },
   {
-    "id": 187,
+    "id": 190,
     "title": "6301062940358022054",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022054.jpg",
@@ -2244,7 +2280,7 @@
     "type": "Standard"
   },
   {
-    "id": 188,
+    "id": 191,
     "title": "6301062940358022055",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022055.jpg",
@@ -2256,7 +2292,7 @@
     "type": "Standard"
   },
   {
-    "id": 189,
+    "id": 192,
     "title": "6301062940358022056",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022056.jpg",
@@ -2268,7 +2304,7 @@
     "type": "Standard"
   },
   {
-    "id": 190,
+    "id": 193,
     "title": "6301062940358022058",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022058.jpg",
@@ -2280,7 +2316,7 @@
     "type": "Standard"
   },
   {
-    "id": 191,
+    "id": 194,
     "title": "6301062940358022059",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022059.jpg",
@@ -2292,7 +2328,7 @@
     "type": "Standard"
   },
   {
-    "id": 192,
+    "id": 195,
     "title": "6301062940358022060",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022060.jpg",
@@ -2304,7 +2340,7 @@
     "type": "Standard"
   },
   {
-    "id": 193,
+    "id": 196,
     "title": "6301062940358022061",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022061.jpg",
@@ -2316,7 +2352,7 @@
     "type": "Standard"
   },
   {
-    "id": 194,
+    "id": 197,
     "title": "6301062940358022062",
     "category": "Travels",
     "src": "/projects/travels/6301062940358022062.jpg",
@@ -2328,7 +2364,7 @@
     "type": "Standard"
   },
   {
-    "id": 195,
+    "id": 198,
     "title": "6334725201803200417",
     "category": "Travels",
     "src": "/projects/travels/6334725201803200417.jpg",
@@ -2340,7 +2376,7 @@
     "type": "Standard"
   },
   {
-    "id": 196,
+    "id": 199,
     "title": "6170150571944381337",
     "category": "Wedding",
     "src": "/projects/Wedding/6170150571944381337.jpg",
@@ -2352,7 +2388,7 @@
     "type": "Standard"
   },
   {
-    "id": 197,
+    "id": 200,
     "title": "6176896393608367315",
     "category": "Wedding",
     "src": "/projects/Wedding/6176896393608367315.jpg",
@@ -2364,7 +2400,7 @@
     "type": "Standard"
   },
   {
-    "id": 198,
+    "id": 201,
     "title": "6226535602685939014",
     "category": "Wedding",
     "src": "/projects/Wedding/6226535602685939014.jpg",
@@ -2376,7 +2412,7 @@
     "type": "Standard"
   },
   {
-    "id": 199,
+    "id": 202,
     "title": "6271682945986792947",
     "category": "Wedding",
     "src": "/projects/Wedding/6271682945986792947.jpg",
@@ -2388,7 +2424,7 @@
     "type": "Standard"
   },
   {
-    "id": 200,
+    "id": 203,
     "title": "6301062940358022064",
     "category": "Wedding",
     "src": "/projects/Wedding/6301062940358022064.jpg",

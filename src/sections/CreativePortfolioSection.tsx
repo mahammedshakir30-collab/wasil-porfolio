@@ -115,11 +115,11 @@ export function CreativePortfolioSection() {
         onSortChange={setSortOption}
       />
 
-      <MagazineSection />
+      {(activeCategory === 'All' || activeCategory === 'Magazine') && <MagazineSection />}
       
-      <BrochureDesignSection />
+      {(activeCategory === 'All' || activeCategory === 'Brochures') && <BrochureDesignSection />}
 
-      <MenuDesignSection />
+      {(activeCategory === 'All' || activeCategory === 'Menu') && <MenuDesignSection />}
 
       <MasonryGallery 
         projects={filteredProjects} 
