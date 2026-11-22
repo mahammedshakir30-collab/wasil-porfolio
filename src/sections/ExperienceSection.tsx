@@ -4,42 +4,37 @@ import { SectionHeading } from '../components/ui/SectionHeading';
 const experiences = [
   {
     title: 'FAAS Associate',
-    organization: 'NJN TAXPERT PRO ACC',
-    period: 'Full-time',
+    organization: 'NJN Taxpert GCC, Calicut',
+    period: 'Present (2026)',
     description: [
-      'Finance & Accounts Executive — accounting, auditing, tax compliance support',
-      'Graphic Designer — design work for the firm\'s internal/client materials'
+      'Prepared financial statements and reports in line with IFRS requirements.',
+      'Supported audit, assurance, and financial documentation activities.',
+      'Managed bookkeeping using Tally, Zoho Books, and QuickBooks.',
+      'Performed account reconciliations and financial analysis using Advanced Excel.',
+      'Created interactive financial dashboards and reports using Power BI.',
+      'Supported VAT, GST, and income tax compliance activities.',
+      'Reviewed financial data to identify discrepancies and maintained confidential records.',
+      'Prepared presentations covering PESTEL, SWOT, competitor analysis, and recommendations.'
     ]
   },
   {
-    title: 'Union President',
-    organization: 'MTSA Students Union - Kokkachal Wafy College',
-    period: '2025 – 2026',
+    title: 'Sales Member',
+    organization: 'MJ Sports, Calicut',
+    period: '5 Months (2026)',
     description: [
-      'Led student union operations, coordinating diverse activities and significantly improving organizational efficiency across academic and extracurricular programs.',
-      'Organized various cultural events and competitions, successfully increasing student participation and overall campus engagement through structured planning.',
-      'Facilitated clear and transparent communication channels between students and administration, ensuring smooth information flow and effective resolution of emerging issues.',
-      'Managed team responsibilities and delegated tasks efficiently, consistently achieving institutional objectives and maintaining structured workflows.'
-    ]
-  },
-  {
-    title: 'Social Service Volunteer',
-    organization: 'Coordination of Islamic Colleges',
-    period: '2023 – 2026',
-    description: [
-      'Collaborated effectively with diverse teams to execute community service initiatives, addressing local needs and enhancing outreach impact.',
-      'Organized impactful events and support programs, consistently benefiting community members through meticulous planning and coordination.',
-      'Engaged directly with beneficiaries, proactively identifying specific community requirements and delivering appropriate, timely assistance.'
+      'Customer handling, customer relationship management, and sales.',
+      'Order & enquiry management with strong interpersonal communication.',
+      'Stock & product inventory management and sales target achievement.'
     ]
   },
   {
     title: 'Freelance Graphic Designer',
-    organization: 'Various International Clients',
-    period: 'Ongoing',
+    organization: 'Hattec Solutions (KSA), Adams Intl, MTSA Media, D3 Entertainments',
+    period: '2025 – 2026',
     description: [
-      'Delivered premium graphic design, branding, and creative solutions for multiple clients including Hattec Solutions (Dammam KSA), HAT Supplies (Dammam KSA), and Adams International (Kochi).',
-      'Designed impactful marketing materials for Dream Catcher Entertainments, MTSA Media, and Showrider Entertainments.',
-      'Provided creative services for educational and tech institutions like Expertzlab, Skyline Academy, and Klassmate Learning.'
+      'Designed social media posts, posters, multi-page brochures, banners & promotional creatives.',
+      'Collaborated with multiple businesses and international organizations on branding projects.',
+      'Managed client requirements, revisions, and timely delivery of high-quality visual assets.'
     ]
   }
 ];

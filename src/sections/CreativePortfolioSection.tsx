@@ -5,6 +5,7 @@ import { PortfolioToolbar } from './portfolio/PortfolioToolbar';
 import { MasonryGallery } from './portfolio/MasonryGallery';
 import { ProjectModal } from './portfolio/ProjectModal';
 import { MagazineSection } from './portfolio/MagazineSection';
+import { BrochureDesignSection } from './portfolio/BrochureDesignSection';
 import { MenuDesignSection } from './portfolio/MenuDesignSection';
 import portfolioData from '../data/portfolio.json';
 
@@ -116,6 +117,8 @@ export function CreativePortfolioSection() {
 
       <MagazineSection />
       
+      <BrochureDesignSection />
+
       <MenuDesignSection />
 
       <MasonryGallery 

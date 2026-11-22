@@ -3,27 +3,35 @@ import { SectionHeading } from '../components/ui/SectionHeading';
 
 const skillCategories = [
   {
-    title: 'Management & Operations',
+    title: 'Accounting & Audit',
     skills: [
-      { name: 'Project & Operations Management', level: 90 },
-      { name: 'Leadership & Supervision', level: 95 },
-      { name: 'Time Management', level: 85 },
-      { name: 'Communication', level: 90 },
-      { name: 'Cultural Awareness', level: 80 },
+      { name: 'Financial Reporting & Statements', level: 95 },
+      { name: 'Bookkeeping & Reconciliations', level: 92 },
+      { name: 'VAT, GST & Tax Compliance', level: 88 },
+      { name: 'Audit Procedures & Documentation (IFRS)', level: 85 },
+      { name: 'Ratio & Financial Analysis', level: 90 },
     ]
   },
   {
-    title: 'Creative & Technical',
+    title: 'Software & Technology',
     skills: [
-      { name: 'Adobe Photoshop', level: 85 },
-      { name: 'Adobe InDesign', level: 80 },
-      { name: 'Microsoft Office Suite', level: 95 },
-      { name: 'Computer Proficiency', level: 90 },
+      { name: 'Advanced Excel (VLOOKUP, XLOOKUP, Pivot)', level: 95 },
+      { name: 'Power BI (Dashboard Creation)', level: 85 },
+      { name: 'Tally, Zoho Books, QuickBooks', level: 90 },
+      { name: 'Adobe Photoshop & InDesign', level: 92 },
+      { name: 'Illustrator & AI Creative Tools', level: 88 },
     ]
   }
 ];
 
-function SkillBar({ name, level, index }: { name: string; level: number; index: number }) {
+interface SkillBarProps {
+  key?: string;
+  name: string;
+  level: number;
+  index: number;
+}
+
+function SkillBar({ name, level, index }: SkillBarProps) {
   return (
     <div className="mb-6 group">
       <div className="flex justify-between mb-2">

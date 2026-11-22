@@ -9,40 +9,34 @@ const educationData = [
     period: '2026 – 2027',
   },
   {
-    degree: 'Diploma in Urdu Language',
-    field: 'NCPUL, Central Government Based',
-    institution: '',
-    period: '2026 – 2027',
+    degree: 'Graduation in Islamic Studies & Arabic Language',
+    field: 'WAFY Curriculum',
+    institution: 'Coordination of Islamic Colleges (WAFY)',
+    period: '2020 – 2026',
   },
   {
-    degree: 'Bachelor of Commerce (BCOM)',
-    field: 'Commerce',
+    degree: 'Bachelor of Commerce (B.Com)',
+    field: 'Finance & Commerce',
     institution: 'Calicut University',
     period: '2023 – 2025',
   },
   {
-    degree: 'Graduation in Islamic Education (WAFY)',
-    field: 'Islamic Education',
-    institution: 'Coordination of Islamic Colleges',
-    period: '2021 – 2026',
+    degree: 'Diploma in Urdu Language',
+    field: 'Urdu Language & Literature',
+    institution: 'NCPUL (National Council for Promotion of Urdu Language)',
+    period: '2024',
   },
   {
-    degree: 'Higher Secondary Education',
-    field: 'Commerce, Kerala State Board',
-    institution: 'Sir Syed Higher Secondary School, Thaliparamba',
-    period: '2019 – 2020',
+    degree: 'Financial and Foreign Accounting',
+    field: 'Accounting Certification',
+    institution: 'Athena Erudition',
+    period: '2026',
   },
   {
-    degree: 'High School',
-    field: 'Kerala State Board',
-    institution: 'Thanbeehul Islam TIHSS, Naimarmoola',
-    period: '2017 – 2018',
-  },
-  {
-    degree: 'Primary & Secondary Education',
-    field: 'CBSE Affiliated, Delhi',
-    institution: 'International Indian School Dammam, KSA',
-    period: '2009 – 2016',
+    degree: 'Investor Awareness Certification',
+    field: 'Financial Markets & Regulatory Standards',
+    institution: 'SEBI',
+    period: '2026',
   }
 ];
 
@@ -50,7 +44,7 @@ export function EducationSection() {
   return (
     <section id="education" className="py-32 relative">
       <div className="container mx-auto px-6 md:px-12">
-        <SectionHeading title="Education" subtitle="Academic Background" align="left" />
+        <SectionHeading title="Education" subtitle="Academic & Certifications" align="left" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {educationData.map((edu, index) => (

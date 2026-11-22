@@ -21,18 +21,18 @@ export function AboutSection() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-[var(--accent)] opacity-10 blur-[100px] rounded-full pointer-events-none" />
 
           <h3 className="text-3xl md:text-5xl font-light text-[var(--text-primary)] mb-10 leading-[1.2] max-w-4xl">
-            A diligent and passionate professional poised to collaborate towards the attainment of <span className="text-[var(--accent)] italic">company objectives.</span>
+            Detail-oriented <span className="text-[var(--accent)] font-normal">Accounts Executive</span> and <span className="text-[var(--accent)] italic">Graphic Designer</span>.
           </h3>
           
           <div className="space-y-6 text-[var(--text-secondary)] text-lg md:text-xl leading-relaxed font-light max-w-3xl">
             <p>
-              Motivated and detail-oriented finance and accounting professional pursuing an MBA in Finance with effective leadership and strategic project management skills.
+              I specialize in accounting operations, financial documentation, and high-impact creative design. Skilled at maintaining precision, managing structured financial records, and delivering professional visual content.
             </p>
             <p>
-              I am equipped with adept organizational abilities, successfully coordinating diverse activities and improving operational efficiency across academic, extracurricular, and professional programs.
+              With hands-on experience in IFRS financial reporting, bookkeeping (Tally, Zoho Books, QuickBooks), audit support, VAT compliance, and advanced analytics via Excel and Power BI, I ensure financial clarity and operational rigor.
             </p>
             <p>
-              Whether I am designing compelling brand identities or managing complex financial workflows, I bring a unique blend of creativity and analytical precision to every project.
+              Simultaneously, as a seasoned graphic designer for clients across Saudi Arabia and India, I craft publication-grade corporate profiles, multi-page brochures, editorial magazines, and branding campaigns.
             </p>
           </div>
 
@@ -41,16 +41,16 @@ export function AboutSection() {
               <div className="w-12 h-12 rounded-xl bg-[var(--accent)]/20 flex items-center justify-center mb-6">
                 <span className="text-[var(--accent-strong)] text-xl font-bold">01</span>
               </div>
-              <h4 className="text-[var(--text-primary)] font-medium text-xl mb-3 tracking-wide">Strategic Thinker</h4>
-              <p className="text-[var(--text-secondary)] leading-relaxed">Balancing creative vision with financial viability and operational efficiency.</p>
+              <h4 className="text-[var(--text-primary)] font-medium text-xl mb-3 tracking-wide">Financial Precision</h4>
+              <p className="text-[var(--text-secondary)] leading-relaxed">Expertise in IFRS reporting, audit documentation, reconciliations, and tax compliance.</p>
             </div>
             
             <div className="p-8 rounded-2xl bg-[var(--glass-fill)] border border-[var(--glass-border)] hover:border-[var(--accent)] hover:bg-[var(--glass-fill-strong)] transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-[var(--accent)]/20 flex items-center justify-center mb-6">
                 <span className="text-[var(--accent-strong)] text-xl font-bold">02</span>
               </div>
-              <h4 className="text-[var(--text-primary)] font-medium text-xl mb-3 tracking-wide">Effective Leader</h4>
-              <p className="text-[var(--text-secondary)] leading-relaxed">Managed team responsibilities and delegated tasks to achieve institutional objectives.</p>
+              <h4 className="text-[var(--text-primary)] font-medium text-xl mb-3 tracking-wide">Creative Excellence</h4>
+              <p className="text-[var(--text-secondary)] leading-relaxed">Delivering Aramco-approved corporate profiles, multi-page brochures, and premium editorial visuals.</p>
             </div>
           </div>
         </motion.div>

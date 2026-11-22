@@ -48,7 +48,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3">
             {designTools.map((tool, index) => (
               <div key={index} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
@@ -56,7 +60,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3" aria-hidden="true">
             {designTools.map((tool, index) => (
               <div key={`dup-${index}`} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
@@ -65,7 +73,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee shrink-0 gap-4 sm:gap-6 px-2 sm:px-3" aria-hidden="true">
             {designTools.map((tool, index) => (
               <div key={`dup2-${index}`} className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)] min-tap-target">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-lg sm:text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-xs sm:text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
@@ -83,7 +95,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee-reverse shrink-0 gap-6 px-3">
             {financeTools.map((tool, index) => (
               <div key={index} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
@@ -91,7 +107,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee-reverse shrink-0 gap-6 px-3" aria-hidden="true">
             {financeTools.map((tool, index) => (
               <div key={`dup-${index}`} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
@@ -100,7 +120,11 @@ export function ToolkitsSection() {
           <div className="flex animate-marquee-reverse shrink-0 gap-6 px-3" aria-hidden="true">
             {financeTools.map((tool, index) => (
               <div key={`dup2-${index}`} className="flex items-center gap-3 px-6 py-3 rounded-full glass-panel border border-[var(--glass-border)] bg-[var(--glass-fill)] shrink-0 transition-colors duration-300 hover:border-[var(--text-primary)]">
-                {tool.icon && <tool.icon className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors" />}
+                {tool.icon && (
+                  <span className="text-[var(--text-secondary)] text-xl group-hover:text-[var(--text-primary)] transition-colors flex items-center">
+                    <tool.icon />
+                  </span>
+                )}
                 <span className="text-[var(--text-primary)] font-medium text-sm whitespace-nowrap">{tool.name}</span>
               </div>
             ))}
