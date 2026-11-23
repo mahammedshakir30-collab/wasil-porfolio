@@ -1,6 +1,5 @@
 import { useState, useMemo } from 'react';
 import { PortfolioHero } from './portfolio/PortfolioHero';
-import { FeaturedProjects } from './portfolio/FeaturedProjects';
 import { PortfolioToolbar } from './portfolio/PortfolioToolbar';
 import { MasonryGallery } from './portfolio/MasonryGallery';
 import { ProjectModal } from './portfolio/ProjectModal';
@@ -71,11 +70,6 @@ export function CreativePortfolioSection() {
     return result;
   }, [activeCategory, searchQuery, sortOption]);
 
-  // Derive some featured projects (just a mock logic for now: take first 2 from "Magazine" or "Branding" if they exist)
-  const featuredProjects = useMemo(() => {
-    return portfolioData.filter(p => p.category === 'Magazine' || p.category === 'Brochures').slice(0, 2) as Project[];
-  }, []);
-
   // Modal Navigation
   const handleOpenModal = (project: Project, index: number) => {
     setSelectedProjectIndex(index);
@@ -102,8 +96,6 @@ export function CreativePortfolioSection() {
   return (
     <section id="portfolio" className="relative min-h-screen">
       <PortfolioHero totalItems={portfolioData.length} />
-      
-      <FeaturedProjects projects={featuredProjects} />
 
       <PortfolioToolbar 
         categories={categories}
